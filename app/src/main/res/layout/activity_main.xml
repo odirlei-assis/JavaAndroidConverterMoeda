@@ -81,9 +81,9 @@
                 android:text="TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" android:id="@+id/exibirResultado"
-                android:visibility="visible" app:layout_constraintEnd_toEndOf="parent"
+                android:visibility="invisible" app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/inputValor"
-                app:layout_constraintBottom_toTopOf="@+id/grupoEscolha"/>
+                app:layout_constraintBottom_toTopOf="@+id/grupoEscolha" android:textSize="34sp"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
